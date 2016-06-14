@@ -9,3 +9,5 @@ Go to http://localhost:3000/ in your browser
 To run locally with webpack hot reloading (Development Mode)
 `npm run dev`
 
+## Preview
+<img src="./public/images/StarWarsReact-Screenshot.png" /> 
