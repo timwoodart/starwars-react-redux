@@ -1,6 +1,9 @@
 # OS X-specific
 .DS_Store
 
+#dist folders
+dist
+
 # Logs
 logs
 *.log
@@ -35,3 +38,4 @@ config.codekit
 
 *.sublime-project
 *.sublime-workspace
+

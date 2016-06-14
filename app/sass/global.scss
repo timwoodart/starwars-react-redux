@@ -1,0 +1,7 @@
+// Fonts
+@include font-face("ChunkFive", "#{$fonts-folder}/ChunkFive/Chunkfive", $file-formats: svg ttf otf);
+
+body {
+  font-family: "ChunkFive", "Helvetica", sans-serif;
+  color: #fff;
+}

@@ -1,0 +1,55 @@
+
+// 100% Darth Vader Image
+body {
+  @include background-image(url("#{$image-folder}/star_wars_darth_vader.jpg"));
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-attachment: fixed;
+  color: yellow;
+  overflow-x: hidden;
+}
+
+.characters-wrapper {
+  float: left;
+  line-height: 80px;
+  margin-left: 30px;
+
+  a {
+    margin-right: 10px;
+  }
+}
+
+h1 {
+  font-size: 80px;
+  color: #eaeaea;
+  display: block;
+  float: left;
+  margin: 0;
+}
+
+h3 {
+  color: #eaeaea;
+  font-size: 40px;
+}
+
+a, a:visited {
+  color: #eaeaea;
+}
+
+a:hover {
+  color: #999;
+}
+
+.summary {
+  clear: both;
+  display: block;
+  color: #999;
+}
+
+// the Star Wars Credits effect
+.profile {
+  text-align: center;
+  transform: perspective(162px) translateZ(63px) rotateX(15deg);
+  overflow: hidden;
+}
